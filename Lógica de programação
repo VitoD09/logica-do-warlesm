@@ -54,3 +54,37 @@ artigo| Livro  | vestido |  bolsa | gravata | candeiro |  chapéu  |
  andar|   1°   |    3°   |    2°  |    2°   |    5°    |     6°   |
 
 questão 7
+ 1° despeja 3 L de C em A
+ A = 3, B = 5, C = 0
+ 2° despeja 3 L de B em C
+ A = 3, B = 2, C = 3
+ 3°despeja 3 L de C em A
+ A = 6, B = 2, C = 0
+ 4° despeja 2 L de B em C
+ A = 6, B = 0, C = 2
+ 5° despeja 5 L de A em B
+ A = 1, B = 5, C = 2
+ 6° despeja 1 L de B em C para encher C
+ A = 1, B = 4, C = 3
+ 7° despeja 3 L de C em A
+ A = 4, B = 4, C = 0
+
+questão 8
+           | João  | Antônio | Francisco |
+instrumento| harpa | violino |   piano   |
+    dia    | quinta|  quinta |   terça   |
+
+questão 9
+          |João | Miguel | Nádia | Silvia | Afonso | Cristina | Geraldo | Júlio | Maria | máximo | Manuel | Ivone
+limonada. |  X  |   X    |   X   |   X    |   X    |    X     |    X    |   X   |   X   |   ■    |    X   |   X    
+guaraná.  |  X  |   X    |   X   |   X    |   X    |    X     |    X    |   X   |   X   |   X    |    X   |   ■      
+whisky.   |  X  |   X    |   X   |   X    |   X    |    X     |    X    |   X   |   X   |   X    |    ■   |   X
+vinho.    |  X  |   X    |   X   |   X    |   X    |    X     |    X    |   ■   |   X   |   X    |    X   |   X
+champanhe |  X  |   X    |   X   |   X    |   X    |    X     |    ■    |   X   |   X   |   X    |    X   |   X
+Água.     |  X  |   X    |   X   |   X    |   X    |    X     |    X    |   X   |   ■   |   X    |    X   |   X
+laranjada |  X  |   X    |   X   |   ■    |   X    |    X     |    X    |   X   |   X   |   X    |    X   |   X
+café.     |  X  |   X    |   X   |   X    |   X    |    ■     |    X    |   X   |   X   |   X    |    X   |   X
+chá.      |  X  |   X    |   X   |   X    |   ■    |    X     |    X    |   X   |   X   |   X    |    X   |   X
+vermauth  |  ■  |   X    |   X   |   X    |   X    |    X     |    X    |   X   |   X   |   X    |    X   |   X
+cerveja.  |  X  |   ■    |   X   |   X    |   X    |    X     |    X    |   X   |   X   |   X    |    X   |   X
+vodka.    |  X  |   X    |   ■   |   X    |   X    |    X     |    X    |   X   |   X   |   X    |    X   |   X
