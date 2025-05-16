@@ -1,2 +1,2 @@
 # lógica de programação 
-2 info b
+2 info b.   J.vitor
