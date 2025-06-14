@@ -1,0 +1,192 @@
+questão 1(a)
+programa {
+  funcao inicio() {
+    escreva("***********\n")
+    escreva("*         *\n")
+    escreva("*         *\n")
+    escreva("*         *\n")
+    escreva("*         *\n")
+    escreva("*         *\n")
+    escreva("***********\n")
+    escreva("\n")
+    escreva("  ***  \n")
+    escreva(" *   *\n")
+    escreva("*     *\n")
+    escreva("*     *\n")
+    escreva("*     *\n")
+    escreva(" *   *\n")
+    escreva("  ***  \n")
+    escreva("\n")
+    escreva("    *    \n")
+    escreva("   ***   \n")
+    escreva("  *****  \n")
+    escreva(" ******* \n")
+    escreva("*********\n")
+    escreva("    *    \n")
+    escreva("    *    \n")
+    escreva("\n")
+    escreva("   *   \n")
+    escreva("  * *  \n")
+    escreva(" *   * \n")
+    escreva("*     *\n")
+    escreva(" *   * \n")
+    escreva("  * *  \n")
+    escreva("   *   \n")
+  }
+}
+
+quetão 1(b):
+programa {
+  funcao inicio() {
+    //delaraçao de variaveis
+    cadeia nome, sobrenome
+
+    //entrada de dados
+    escreva("Informe o nome da pessoa: ")
+    leia(nome)
+    escreva("Informe o sobrenome da pessoa: ")
+    leia(sobrenome)
+
+    //saida de dados
+    escreva("individuo ",nome," ", sobrenome,"\n")
+    escreva("individuo ",sobrenome," ",nome)
+  }
+}
+
+questão 1(c):
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    inteiro valor1, valor2, adicao, multiplicacao, subtracao, divisao, resto
+
+    //entrada de dados 
+    escreva("Informe o primeiro valor: ")
+    leia(valor1)
+    escreva("Informe o segundo valor: ")
+    leia(valor2)
+
+    //processamento
+    adicao = valor1 + valor2
+    subtracao = valor1 - valor2
+    multiplicacao = valor1 * valor2
+    divisao = valor1 / valor2
+    resto = valor1 % valor2
+
+    //saida de dados 
+    escreva("Resultado:\n Adiçao = ",adicao,"\n Subtraçao = ",subtracao,"\n multiplicaçao = ",multiplicacao,"\n divisao = ",divisao,"\n resto da divisao = ",resto)
+
+  }
+}
+
+questão 1(d)
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real celsius, fahren
+
+    //entrada de dados
+    escreva("Informe o valor da temperatura em celsius: ")
+    leia(celsius)
+
+    //processamwnto
+    fahren = (9*celsius+160)/5
+
+    //saida de dados 
+    escreva("A temperatura em fahrenheit e ",fahren)
+  }
+}
+
+
+questão 1(e):
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    inteiro celsius, fahren
+
+    //entrada de dados
+    escreva("Informe a temperatura em fahrenheit: ")
+    leia(fahren)
+
+    //processamneto
+    celsius = ((fahren - 32)*5)/9
+
+    //saida de dados
+    escreva("A temperatura em celsius e ", celsius," graus")
+  }
+}
+
+questão 1(f):
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real raio,altura,volume
+
+    //entrada de dados
+    escreva("Informe o valor do raio: ")
+    leia(raio)
+    escreva("Informe o valor da altura: ")
+    leia(altura)
+
+    //processesamento
+    volume = 3.14 * raio * altura
+
+    //saida de dados
+    escreva("O volume interno da lata e ",volume)
+  }
+}
+
+
+quetão 1(g):
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real reais, dolares, dolarconv, euroconv, libraconv
+
+    //declaraçao de constantes
+    const real dolarpR = 5.54 //peguei os valores das taxas de conversão do google do dia 14/06
+    const real europD = 1.14
+    const real librapE = 0.86
+
+    //entrada de dados
+    escreva("Informe o valor de dinehiro em reais: ")
+    leia(reais)
+    escreva("Informe o valor em dolares: ")
+    leia(dolares)
+
+    //processamento
+    dolarconv = reais/dolarpR
+    dolares = dolarconv + dolares
+    euroconv = dolares/1.14
+    libraconv = euroconv/0.86
+
+    //saida de dados
+    escreva("A conversao do dinheiro atual em cada pais e respectivamente ",dolares," dolares, ",euroconv," euros, ",libraconv," libras estralinas")
+  }
+}
+
+questão 1(h):
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real dolares, euros, libras, reais
+    //declaraçao de constantes
+    const real gastoRU = 8500
+    const real gastoF = 4500
+    const real gastoUSA = 4095
+
+    //entrada de dados
+    escreva("Informe o valor em reais: ")
+    leia(reais)
+
+    //processamento
+    dolares = gastoUSA * 5.54
+    reais = reais-dolares
+    libras = gastoRU * 7.52
+    reais = reais-libras
+    euros = gastoF * 6.41
+    reais = reais - euros
+
+    //saida de dados 
+    escreva("O saldo final de carlos e de R$", reais )
+  }
+}
